@@ -1,0 +1,338 @@
+/*html {
+	background: url(../images/rice.jpg) repeat;
+	background-size: cover;
+}*/
+
+body {
+	font-size: 16px;
+	font-family: 'Oxygen', sans-serif;
+	color: #8E8D8A;
+	/*background: url(../images/fruits.jpg) repeat;
+	background-size: cover;*/
+}
+
+.container{
+	padding: 0px;
+}
+
+#header-nav{
+	/*background-color: white; /*#D8C3A5*/
+	border-radius: 0;
+	border-bottom: 10px solid;
+  	border-image-slice: 1;
+  	border-width: 5px;
+	border-image-source: linear-gradient(to right, #FFFFFF, #FFA500);
+	margin-bottom: 20px;
+	/*background: -webkit-linear-gradient(right, #FFA500, #FFFFFF);*/
+}
+
+#logo-img{
+	background: url('../images/pravasi_logo_150px.png') no-repeat;
+	width: 150px;
+	height: 80px;
+	margin: 10px 15px 10px 0;
+}
+
+#nav-list a{
+	font-weight: 400;
+  	font-size: 1.25em;
+}
+
+#header-nav button.navbar-toggler, #header-nav button.navbar-toggler:focus, #header-nav button.navbar-toggler:active {
+  border-color: #FFA500;
+  outline-color: #FFA500;
+}
+
+#header-container span.navbar-toggler-icon{
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 165, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+#nav-list{
+	margin: 0 auto;
+	padding-right: 120px;
+}
+
+#backgroundPicture{
+	margin-bottom: 20px;
+}
+
+#nav-list a{
+	padding-right: 60px;
+}
+
+/***********Main Page****************/
+
+.container .jumbotron{
+	padding: 0px;
+	border-radius: 0;
+}
+
+#whyPravasi{
+	height: 200px;
+	width: 80%;
+	margin-bottom: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+}
+
+#whyPravasi h2{
+	font-size: 1.5em;
+	text-align: center;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+#whyPravasi p{
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+.row{
+	margin-right: 0px;
+	margin-left: 0px;
+
+}
+
+#staplesTile, #fruitsTile, #mapTile{
+	width: 100%;
+	height: 275px;
+	position: relative;
+	overflow: hidden;
+	
+}
+
+.tiles{
+	padding: 0px;
+}
+
+#staplesTile:hover, #fruitsTile:hover, #mapTile:hover{
+	border: 1px solid black;
+}
+
+/*.tiles:hover {
+	/*box-shadow: 0 2px 10px 2px #cccccc;
+	
+}*/
+
+
+#staplesTile{
+	background: url(../images/staples_250_250.jpg) no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#fruitsTile{
+	background: url(../images/fruits_325_250.jpg) no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#staplesTile span, #fruitsTile span, #mapTile span{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: .7;
+}
+
+/**************Footer Section*********************/
+
+#footer-container{
+	text-align: center;
+	font-size: .7em;
+	margin-top: 50px;
+	background-color:#000;
+	opacity: .7;
+	color: #fff;
+	width: 100%;
+	height: 200px;
+}
+
+
+#footer-container h5{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	text-decoration: underline;
+}
+
+
+#footer-container h6{
+	text-decoration: underline;
+}
+
+/**************Extra Large devices only***********/
+
+@media (min-width: 1200px){
+#backgroundImage {
+	background: url(../images/rice_1200_520.jpg) no-repeat;
+	width: 100%;
+	height:520px;
+}
+
+
+}
+
+/**************Large devices only**********/
+
+@media (min-width: 992px) and (max-width: 1199px){
+
+#backgroundImage {
+	background: url(../images/rice_992_430.jpg) no-repeat;
+	width: 100%;
+	height:430px;*/
+}
+
+#whyPravasi{
+width: 90%	
+}
+
+}
+
+/***************Medium devices only**********/
+
+@media	(min-width: 768px) and (max-width: 991px){
+
+#nav-list{
+	padding:0;
+}
+
+#nav-list a{
+	padding:0;
+	text-align: center;
+}
+
+#backgroundImage {
+	background: url(../images/rice_768_333.jpg) no-repeat;
+	width: 100%;
+	height:333px;
+}
+
+#whyPravasi{
+	height: 220px;
+	width: 80%;
+	margin-bottom: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#whyPravasi h2{
+	font-size: 1.25em;
+	text-align: center;
+	padding-bottom: 15px;
+	padding-top: 0px;
+}
+
+#whyPravasi p{
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+#footer-container{
+	height: 300px;
+}
+
+}
+
+/***************Small devices only*****/
+
+@media (min-width: 576px) and (max-width: 767px){
+
+#nav-list{
+	padding:0;
+}
+
+#nav-list a{
+	padding:0;
+	text-align: center;
+}
+
+#backgroundImage {
+	background: url(../images/rice_576_250.jpg) no-repeat;
+	width: 100%;
+	height:250px;
+}
+
+#whyPravasi{
+	height: 220px;
+	width: 100%;
+	margin-bottom: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#whyPravasi h2{
+	font-size: 1.25em;
+	font-weight: 400;
+	text-align: center;
+	padding-bottom: 15px;
+	padding-top: 0px;
+}
+
+#whyPravasi p{
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+#footer-container{
+	height: 300px;
+}
+
+}
+
+/***************Extra Small devices only*****/
+
+@media (max-width: 575px){
+
+#nav-list{
+	padding:0;
+}
+
+#nav-list a{
+	padding:0;
+	text-align: center;
+}
+
+#main-content{
+	padding-right: 16px;
+	padding-left: 16px;
+}
+
+#whyPravasi{
+	height: 225px;
+	width: 100%;
+	margin-bottom: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#whyPravasi h2{
+	font-size: 1.25em;
+	text-align: center;
+	padding-bottom: 10px;
+	padding-top: 0px;
+}
+
+#whyPravasi p{
+	text-align: center;
+	padding-bottom: 10px;
+	font-size: .8em;
+}
+
+#staplesTile, #fruitsTile, #mapTile{
+	width: 100%;
+	height: 160px;
+	position: relative;
+	overflow: hidden;
+}
+
+#footer-container{
+	height: 300px;
+	font-size: .8em;
+}
+}
