@@ -198,6 +198,10 @@ body {
 	overflow: hidden;
 }*/
 
+#commodities-title{
+	color: orange;
+}
+
 .commodity-images{
 	position: relative;	
 	width: 	200px;
