@@ -125,14 +125,14 @@ body {
 
 
 #staplesTile{
-	background: url(./images/staples_250_250.jpg) no-repeat;
+	background: url(../images/staples_250_250.jpg) no-repeat;
 	background-position: center;
 	background-size: cover;
 	width: 98%;
 }
 
 #fruitsTile{
-	background: url(./images/fruits_325_250.jpg) no-repeat;
+	background: url(../images/fruits_325_250.jpg) no-repeat;
 	background-position: center;
 	background-size: cover;
 	width: 98%
