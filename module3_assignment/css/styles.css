@@ -439,6 +439,10 @@ width: 90%
 	padding-bottom: 15px;
 }
 
+#mapTile{
+	width: 99%;
+}
+
 .commodity-images{
 	float: none;
 	left: 50%;
