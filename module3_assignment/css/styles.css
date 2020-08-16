@@ -125,7 +125,7 @@ body {
 
 
 #staplesTile{
-	background: url('./images/staples_250_250.jpg') no-repeat;
+	background: url('../images/staples_250_250.jpg') no-repeat;
 	background-position: center;
 	background-size: cover;
 	width: 98%;
@@ -531,9 +531,6 @@ width: 90%
 	width: 99%;
 }
 
-.panel-footer{
-	font-size: .8em;
-}
 
 .commodity-images{
 	float: none;
