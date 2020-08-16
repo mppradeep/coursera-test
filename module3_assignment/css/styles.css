@@ -330,7 +330,7 @@ margin: 0px;
 
 @media (min-width: 1200px){
 #backgroundImage {
-	background: url('./images/rice_1200_520.jpg') no-repeat;
+	background: url('../images/rice_1200_520.jpg') no-repeat;
 	width: 100%;
 	height:520px;
 }
@@ -343,7 +343,7 @@ margin: 0px;
 @media (min-width: 992px) and (max-width: 1199px){
 
 #backgroundImage {
-	background: url('./images/rice_992_430.jpg') no-repeat;
+	background: url('../images/rice_992_430.jpg') no-repeat;
 	width: 100%;
 	height:430px;*/
 }
@@ -368,7 +368,7 @@ width: 90%
 }
 
 #backgroundImage {
-	background: url('./images/rice_768_333.jpg') no-repeat;
+	background: url('../images/rice_768_333.jpg') no-repeat;
 	width: 100%;
 	height:333px;
 }
@@ -412,7 +412,7 @@ width: 90%
 }
 
 #backgroundImage {
-	background: url('./images/rice_576_250.jpg') no-repeat;
+	background: url('../images/rice_576_250.jpg') no-repeat;
 	width: 100%;
 	height:250px;
 }
