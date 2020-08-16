@@ -520,6 +520,7 @@ width: 90%
 }
 
 #staplesTile, #fruitsTile, #mapTile{
+	width: 98%;
 	height: 160px;
 }
 
