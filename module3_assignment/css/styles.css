@@ -522,7 +522,7 @@ width: 90%
 }
 
 #staplesTile, #fruitsTile, #mapTile{
-	width: 100%;
+	
 	height: 160px;
 	position: relative;
 	overflow: hidden;
