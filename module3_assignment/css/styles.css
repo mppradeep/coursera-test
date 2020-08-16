@@ -129,7 +129,6 @@ body {
 	background-position: center;
 	background-size: cover;
 	width: 98%;
-	height: auto;
 }
 
 #fruitsTile{
@@ -137,7 +136,6 @@ body {
 	background-position: center;
 	background-size: cover;
 	width: 98%;
-	height: auto;
 }
 
 
@@ -522,10 +520,7 @@ width: 90%
 }
 
 #staplesTile, #fruitsTile, #mapTile{
-	width: 80%;
 	height: 160px;
-	position: relative;
-	overflow: hidden;
 }
 
 .panel-footer{
